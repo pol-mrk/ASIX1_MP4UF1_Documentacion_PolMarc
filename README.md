@@ -81,3 +81,12 @@ Texto con enlace a nota de pie de página [^1]
 - [x] B
 - [ ] C
   (Dejar un espacio en blanco entre los dos corchetes en las que aparezcan vacias)
+
+# HTML
+### Encabezados
+<h1>: el más grande
+<h2>: menos grande
+<h3>: normal
+<h4>: medio
+<h5>: pequeño
+<h6>: más pequeño
