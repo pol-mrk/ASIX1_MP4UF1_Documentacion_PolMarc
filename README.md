@@ -11,7 +11,9 @@
 
 ### Estilos de letra
 *Itálica / cursiva*: (*texto* / _texto_)
+
 **Negrita**: (**texto** / __texto__)
+
 **anidar _estilos_**: (**palabra1 _palabra2_**)
 
 ### Listas
