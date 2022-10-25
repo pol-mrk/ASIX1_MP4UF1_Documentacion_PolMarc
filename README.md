@@ -1,6 +1,6 @@
 # ASIX1_MP4UF1_Documentacion_PolMarc
 
-## Markdown
+# Markdown
 ### Encabezados
 * H1 (#)
 * H2 (##)
