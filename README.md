@@ -84,6 +84,11 @@ Texto con enlace a nota de pie de página [^1]
 
 # HTML
 ### Encabezados
+```html
+<html>
+  <h1>el más grande</h1>
+</html>
+```
 <h1> el más grande
 <h2> menos grande
 <h3> normal
