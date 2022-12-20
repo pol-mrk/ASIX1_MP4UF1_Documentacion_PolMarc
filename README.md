@@ -125,9 +125,37 @@ Es un elemento que sirve para crear un parágrafo
 <p> Esto es un parágrafo </p>
 ```
 ## Formato
-Le vamos a dar formato para <b>resaltar</b>, <u>subrayar</u> o poner en <i>cursiva</i> un texto.
+Le vamos a dar formato para **resaltar**, <u>subrayar</u> o poner en *cursiva* un texto.
 ```
 <p><b>Texto resaltado</b></p>
 <p><u>Texto subrayado</u></p>
 <p><i>Texto en cursiva</i></p>
+```
+### Listas
+Crearemos las listas con el elemento li:
+```
+<li>
+  <p>Aquí irá el tipo de lista</p>
+</li>
+```
+Podemos hacer listas ordenadas o desordenadas.
+## ul
+Esta es la lista desordenada:
+```
+<li>
+  <ul>Elemento desordenado 1</ul>
+  <ul>Elemento desordenado 2</ul>
+  <ul>Elemento desordenado 3</ul>
+</li>
+```
+## ol
+Esta es la lista desordenada:
+```
+<li>
+  <ol>Elemento ordenado 1</ol>
+  <ol>Elemento ordenado 2</ol>
+  <ol>Elemento ordenado 3</ol>
+</li>
+```
+
 ```
