@@ -83,7 +83,7 @@ Texto con enlace a nota de pie de página [^1]
   (Dejar un espacio en blanco entre los dos corchetes en las que aparezcan vacias)
 
 # HTML
-### Encabezados
+## Encabezados
 ```
   <h1>el más grande</h1>
   <h2>menos grande</h2>
@@ -99,39 +99,39 @@ Texto con enlace a nota de pie de página [^1]
 <h5> pequeño (h5) </h5>
 <h6> más pequeño (h6) </h6>
 
-### Divisores
+## Divisores
 Un divisor (div) sirve para dividir la página por partes separadas entre sí, cada divisor que pongamos dividirá la página en secciones. Si cambiamos alguna propiedad css del divisor, solo afectará al contenido de dentro de este.
 ```
 <div>
   <h1>Contenido del div</h1>
 </div>
 ```
-### Span
+## Span
 Un span sirve para agrupar elementos dentro de un contenedor o para aplicar estilos a un fragmento de texto.
 ```
   <p>Este es un <span style="color: red;">párrafo</span> con una palabra resaltada</p>
 ```
-### a
+## a
 Es un elemento que se utiliza para crear un enlace a otra página web o a una sección específica de una página.
 ```
 <div>
   <h1>Contenido del div</h1>
 </div>
 ```
-### Párrafo y formato de texto
-## p
+## Párrafo y formato de texto
+### p
 Es un elemento que sirve para crear un parágrafo
 ```
 <p> Esto es un parágrafo </p>
 ```
-## Formato
+### Formato
 Le vamos a dar formato para **resaltar**, <u>subrayar</u> o poner en *cursiva* un texto.
 ```
 <p><b>Texto resaltado</b></p>
 <p><u>Texto subrayado</u></p>
 <p><i>Texto en cursiva</i></p>
 ```
-### Listas
+## Listas
 Crearemos las listas con el elemento li:
 ```
 <li>
@@ -139,7 +139,7 @@ Crearemos las listas con el elemento li:
 </li>
 ```
 Podemos hacer listas ordenadas o desordenadas.
-## ul
+### ul
 Esta es la lista desordenada:
 ```
 <li>
@@ -148,8 +148,8 @@ Esta es la lista desordenada:
   <ul>Elemento desordenado 3</ul>
 </li>
 ```
-## ol
-Esta es la lista desordenada:
+### ol
+Esta es la lista ordenada:
 ```
 <li>
   <ol>Elemento ordenado 1</ol>
@@ -157,5 +157,38 @@ Esta es la lista desordenada:
   <ol>Elemento ordenado 3</ol>
 </li>
 ```
-
+## Saltos de línea
+Se utiliza para insertar un salto de línea o una nueva línea en un documento HTML.
 ```
+Este texto está en la misma línea.
+<br>
+Este texto está en una línea diferente.
+```
+## Línea de separación
+Es un elemento de contenido que se utiliza para insertar una línea horizontal en un documento, así lo divide en secciones.
+```
+<h1>Título de la sección</h1>
+<p>Texto de la sección</p>
+
+<hr>
+
+<h1>Título de la siguiente sección</h1>
+<p>Texto de la siguiente sección</p>
+```
+
+## Media
+### Imagen
+Para añadir una imagen utilizaremos la etiqueta `<img>` e introduciremos el enlace o ruta de esta imagen.
+```
+<h1>Título de la sección</h1>
+<p>Texto de la sección</p>
+
+<hr>
+
+<h1>Título de la siguiente sección</h1>
+<p>Texto de la siguiente sección</p>
+```
+### Vídeo
+Añadiremos un vídeo con la etiqueta `<video>` e introduciremos el enlace o ruta de este.
+
+# CSS
