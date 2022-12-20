@@ -92,9 +92,11 @@ Texto con enlace a nota de pie de página [^1]
   <h5>pequeño</h5>
   <h6>más pequeño</h6>
 ```
-<h1> el más grande (h1)
-<h2> menos grande (h2)
-<h3> normal (h3)
-<h4> medio (h4)
-<h5> pequeño (h5)
-<h6> más pequeño (h6)
+<h1> el más grande (h1) </h1>
+<h2> menos grande (h2) </h2>
+<h3> normal (h3) </h3>
+<h4> medio (h4) </h5>
+<h5> pequeño (h5) </h5>
+<h6> más pequeño (h6) </h6>
+
+### Divisores
