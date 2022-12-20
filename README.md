@@ -100,3 +100,34 @@ Texto con enlace a nota de pie de página [^1]
 <h6> más pequeño (h6) </h6>
 
 ### Divisores
+Un divisor (div) sirve para dividir la página por partes separadas entre sí, cada divisor que pongamos dividirá la página en secciones. Si cambiamos alguna propiedad css del divisor, solo afectará al contenido de dentro de este.
+```
+<div>
+  <h1>Contenido del div</h1>
+</div>
+```
+### Span
+Un span sirve para agrupar elementos dentro de un contenedor o para aplicar estilos a un fragmento de texto.
+```
+  <p>Este es un <span style="color: red;">párrafo</span> con una palabra resaltada</p>
+```
+### a
+Es un elemento que se utiliza para crear un enlace a otra página web o a una sección específica de una página.
+```
+<div>
+  <h1>Contenido del div</h1>
+</div>
+```
+### Párrafo y formato de texto
+## p
+Es un elemento que sirve para crear un parágrafo
+```
+<p> Esto es un parágrafo </p>
+```
+## Formato
+Le vamos a dar formato para <b>resaltar</b>, <u>subrayar</u> o poner en <i>cursiva</i> un texto.
+```
+<p><b>Texto resaltado</b></p>
+<p><u>Texto subrayado</u></p>
+<p><i>Texto en cursiva</i></p>
+```
