@@ -112,11 +112,18 @@ Un span sirve para agrupar elementos dentro de un contenedor o para aplicar esti
   <p>Este es un <span style="color: red;">párrafo</span> con una palabra resaltada</p>
 ```
 ## a
-Es un elemento que se utiliza para crear un enlace a otra página web o a una sección específica de una página.
+Es un elemento que se utiliza para crear un enlace a otra página web.
 ```
-<div>
-  <h1>Contenido del div</h1>
-</div>
+<a href="https://ejemplo.com">Texto del enlace</a>
+```
+También se utiliza para enlazar una sección específica de una página.
+```
+<a href="#seccion1">Ir a la sección 1</a>
+
+<!-- contenido de la página -->
+
+<h2 id="seccion1">Sección 1</h2>
+
 ```
 ## Párrafo y formato de texto
 ### p
