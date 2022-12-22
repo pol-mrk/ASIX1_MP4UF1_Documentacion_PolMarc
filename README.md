@@ -199,3 +199,40 @@ Para añadir una imagen utilizaremos la etiqueta `<img>` e introduciremos el enl
 Añadiremos un vídeo con la etiqueta `<video>` e introduciremos el enlace o ruta de este.
 
 # CSS
+## *
+Este elemento se utiliza como un comodín para seleccionar todos los elementos de un documento HTML.
+```
+* {
+  margin: 0;
+  padding: 0;
+}
+```
+Esto aplicaría la regla de margin y padding con un valor de 0 a todos los elementos del documento.
+## .(nombre clase)
+Las clases son atributos que se pueden asignar a elementos HTML para diferenciarlos de otros elementos y aplicar estilos a ellos.
+```
+.error {
+  color: red;
+}
+
+.warning {
+  background-color: yellow;
+}
+```
+Estas son las clases con los atributos que afectarán al elemento HTML con esa classe.
+```
+<p class="error warning">Este párrafo tiene las clases "error" y "warning" y se verá en rojo y con un fondo amarillo.</p>
+```
+Este es el elemento HTML afectado por las clases que le hemos definido anteriormente en el CSS.
+## #(nombre ID)
+Los identificadores hacen la misma función que la clase, pero estos empiezan por "#" en vez de ".".
+```
+#header {
+  background-color: blue;
+}
+```
+Para seleccionar un elemento con un ID específico en CSS, se debe utilizar el símbolo "#" seguido del nombre del ID.
+```
+<div id="header">Este es el encabezado de la página.</div>
+```
+Para asignar un ID a un elemento HTML, se debe utilizar el atributo "id" y asignarle un valor único.
