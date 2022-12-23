@@ -199,7 +199,8 @@ Para añadir una imagen utilizaremos la etiqueta `<img>` e introduciremos el enl
 Añadiremos un vídeo con la etiqueta `<video>` e introduciremos el enlace o ruta de este.
 
 # CSS
-## *
+## Selectores
+### *
 Este elemento se utiliza como un comodín para seleccionar todos los elementos de un documento HTML.
 ```
 * {
@@ -208,7 +209,7 @@ Este elemento se utiliza como un comodín para seleccionar todos los elementos d
 }
 ```
 Esto aplicaría la regla de margin y padding con un valor de 0 a todos los elementos del documento.
-## .(nombre clase)
+### .(nombre clase)
 Las clases son atributos que se pueden asignar a elementos HTML para diferenciarlos de otros elementos y aplicar estilos a ellos.
 ```
 .error {
@@ -224,7 +225,7 @@ Estas son las clases con los atributos que afectarán al elemento HTML con esa c
 <p class="error warning">Este párrafo tiene las clases "error" y "warning" y se verá en rojo y con un fondo amarillo.</p>
 ```
 Este es el elemento HTML afectado por las clases que le hemos definido anteriormente en el CSS.
-## #(nombre ID)
+### #(nombre ID)
 Los identificadores hacen la misma función que la clase, pero estos empiezan por "#" en vez de ".".
 ```
 #header {
