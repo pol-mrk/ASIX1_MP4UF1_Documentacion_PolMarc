@@ -237,3 +237,21 @@ Para seleccionar un elemento con un ID específico en CSS, se debe utilizar el s
 <div id="header">Este es el encabezado de la página.</div>
 ```
 Para asignar un ID a un elemento HTML, se debe utilizar el atributo "id" y asignarle un valor único.
+## Propiedades
+### Texto y fuente
+```
+font-family: 'Nunito', sans-serif;
+```
+Esta propiedad sirve para cambiar la fuente del texto, y el valor define la fuente que queremos asignar al texto.
+```
+font-size: 16px;
+```
+Esta propiedad sirve para cambiar el tamaño de fuente, y el valor define el tamaño en píxeles.
+```
+color: black;
+```
+Esta propiedad sirve para cambiar el color del texto, y el valor define el color.
+```
+text-decoration: none/underline;
+```
+Esta propiedad se utiliza para cambiar el color del texto, y el valor define el color.
